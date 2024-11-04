@@ -13,7 +13,7 @@
          </plugins>
     </build>
     <groupId>com.codedifferently</groupId>
-    <artifactId>U5S2-WhileAndDo-WhileLoops</artifactId>
+    <artifactId>U6S2-WhileAndDo-WhileLoops</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
