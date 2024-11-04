@@ -1,4 +1,4 @@
-# U5S2- while and do-while loops
+# U6S2- while and do-while loops
 
 * Part A - Foundations 6.2
 * Part B - Foundations Practice
