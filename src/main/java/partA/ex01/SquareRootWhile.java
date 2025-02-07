@@ -6,16 +6,21 @@ public class SquareRootWhile {
     public static String squareRoot() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number: ");
-        double x = scanner.nextDouble();
-        while (x <= 0) {
-            System.out.println("Input a number more than 0");
-            x = scanner.nextDouble();
-            if (x >=0){
-               x= Math.sqrt(x);
+        double number;
+        while (true) {
+            number = scanner.nextDouble();
+            if (number >= 0) {
+                break;
             }
+            System.out.println("Invalid input. Please enter a non-negative number.");
+
         }
-        return String.valueOf(x);
+        double squareRoot = Math.sqrt(number);
+        System.out.println("The square root of " + number + " is " + squareRoot);
+        scanner.close();
+        return "";
     }
+
 
     public static void main(String args[]) {
         String outputSquareRoot = squareRoot();

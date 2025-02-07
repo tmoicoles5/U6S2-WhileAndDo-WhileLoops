@@ -4,9 +4,18 @@ import java.util.Scanner;
 
 public class SumOfNums {
     public static String sum(){
-        String response ="";
+       Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int i = 11;
+      do {
+          System.out.println("");
+      }
+      while (i<= 11);{
+       i= scanner.nextInt();
+        }
 
-        return response;
+
+return "";
     }
     public static void main(String args[]) {
         String outputSum = sum();
