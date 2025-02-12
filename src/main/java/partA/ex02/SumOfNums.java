@@ -13,6 +13,12 @@ public class SumOfNums {
       }
       while (i<= 11);{
        i= scanner.nextInt();
+       int i = 10;
+       do {
+           System.out.println(i);
+           i--;
+
+       }while (i>=0);{
         }
             num --;
         }  while (num>=0);
